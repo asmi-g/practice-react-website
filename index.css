@@ -1,0 +1,59 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 0px 1px 1px 1px rgb(88, 115, 139);
+    
+}
+
+.top-header{
+    
+    box-shadow: 10px;
+}
+
+.nav-items{
+    list-style: none;
+    display: flex;
+   
+}
+
+.nav-items > li {
+    padding: 10px;
+}
+
+.logo-img{
+    width: 60px;
+    
+}
+
+.footer{
+    position: abosolute;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(132, 182, 226);
+    color:aliceblue;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bodyText{
+    margin-top: 40px;
+    padding-left: 20px;
+    font-weight: bold;
+    
+}
+
+.main-page{
+    font-family: Andale Mono, monospace;
+    background-color: rgb(212, 229, 244);
+    min-height: 100vh;
+    min-width: max-content;
+    margin: 0;
+    position: relative;
+    
+}
